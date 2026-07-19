@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this catalog, please cite the repository and the original papers."
+title: "Awesome PhysChronoGrid Papers"
+type: dataset
+authors:
+  - name: "PhysChronoGrid Literature Curation Team"
+version: 1.0.0
+date-released: 2026-07-19
+license: MIT
+repository-code: "https://github.com/<your-account>/awesome-physchronogrid-papers"
+keywords:
+  - power systems
+  - smart grid
+  - large language models
+  - agentic AI
+  - physics-informed machine learning
+  - cyber-physical systems
