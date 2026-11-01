@@ -1,84 +1,80 @@
-# Search and Verification Strategy
+# Search and Verification Strategy — 2026-11-01
 
-## Snapshot and objective
+## Baseline and scope
 
-- Search snapshot: **2026-07-19**
-- Objective: build a reproducible, living literature catalog for the PhysChronoGrid research line.
-- Included records after title-level deduplication: **156**.
+- Baseline: supplied ZIP dated **2026-07-19**, commit `9a10f0a605d85bbcb5ea2ef19bc365fc9fd150e6`, matched against the public repository's latest commit.
+- Search cutoff: **2026-11-01, Asia/Shanghai**. This is the search date, not a guarantee of database completeness.
+- Preserved all 156 legacy records/IDs; added 68 and corrected 6, yielding 224 records.
+- Additions comprise 27 date-verified post-cutoff public/preprint/conference releases, 39 historical backfills, and 2 confirmed bibliographic identities with unresolved first-online dates.
+- Graph + LLM adds 34 records and 2 cross-references. Cross-references and Transactions spotlight entries do not add data rows.
+- P016/P029 are inherited PowerChain versions, not independent studies; counts use “records.”
 
-## Sources searched
+## Sources actually used
 
-1. IEEE Xplore and official IEEE-hosted accepted manuscripts.
-2. Crossref DOI metadata for title, venue, and year verification.
-3. arXiv for fast-moving LLM, agentic AI, time-series foundation model, and code-generation work.
-4. OpenReview, ACL Anthology, PMLR, AAAI, IJCAI, ACM Digital Library, Nature Portfolio, Elsevier/ScienceDirect, Wiley/IET, and institutional repositories.
-5. GitHub project pages only for locating code linked to an identifiable paper; GitHub projects without a paper are placed in resources rather than silently treated as publications.
+1. arXiv search and official Atom API: titles, authors, first submission, update dates, abstracts, comments, journal references and related DOIs.
+2. Crossref publisher-deposited DOI metadata, checked against titles and primary publication records. DOI `created` is a registration date, not a publication date.
+3. IEEE Xplore records/search extracts; Elsevier, Springer, ACM and AAAI; institutional author records when direct access was restricted.
+4. ACL Anthology, PMLR, NeurIPS proceedings, OpenReview and official research-lab pages.
+5. Paper-linked GitHub repositories for code provenance; public repository HEAD checked with the connected GitHub tool.
 
-## Query families
+Secondary search results were discovery leads, not the sole basis for new bibliographic identities. This was not a Scopus/Web of Science export. OpenAlex and Semantic Scholar APIs were not used.
+
+## Search families
 
 ```text
-("large language model" OR LLM OR "foundation model") AND
-("power system" OR "smart grid" OR "active distribution network")
+("power system" OR "power grid" OR "smart grid")
+AND ("language model" OR LLM OR agentic)
 
-(agent OR "multi-agent" OR MCP OR RAG OR "tool calling") AND
-("power flow" OR OPF OR dispatch OR contingency OR diagnosis)
+("power system" OR "smart grid")
+AND (MCP OR "tool use" OR "dynamic simulation" OR "fault diagnosis"
+     OR "load forecasting" OR restoration OR verification)
 
-("multi-horizon" OR "multi-scale" OR "time series foundation model") AND
-(load OR wind OR PV OR voltage OR "power forecasting")
+(graph OR "graph computation" OR GNN OR GraphRAG)
+AND (LLM OR "large language model")
 
-("graph neural network" OR STGNN OR "spatio-temporal") AND
-(distribution OR grid OR OPF OR FDIA OR fault)
-
-("physics-informed" OR "physics-guided" OR verifier OR feasibility) AND
-(power OR voltage OR dispatch OR control)
-
-("false data injection" OR cyber-physical OR "incipient fault") AND
-(detection OR localization OR diagnosis OR explanation)
+("IEEE Transactions on Smart Grid" OR "IEEE Transactions on Power Systems"
+ OR "IEEE Transactions on Industrial Informatics")
+AND ("large language" OR agent)
 ```
 
-Targeted venue filters included `IEEE Transactions on Smart Grid`, `IEEE Transactions on Power Systems`, `IEEE Transactions on Sustainable Energy`, `IEEE Transactions on Industrial Informatics`, `IEEE Transactions on Power Delivery`, `IEEE Transactions on Neural Networks and Learning Systems`, and `CSEE Journal of Power and Energy Systems`.
+Recent searches included `after:2026-07-19 before:2026-11-02` and September/October windows. Search filters aid discovery; inclusion dates come from records.
 
-## Inclusion criteria
+The broad official arXiv API query was:
 
-- Directly studies LLMs, agents, forecasting, graph learning, cyber-physical diagnosis, physics-guided verification, XAI, or benchmark infrastructure relevant to PhysChronoGrid.
-- Peer-reviewed journal/conference papers, reputable preprints, official white papers, or benchmark/tool papers with stable primary records.
-- English-language metadata and a stable paper URL.
-- Generic time-series/graph papers are retained only when they are influential baselines or practically useful for the planned experiments.
+```text
+(all:"power system" OR all:"power grid" OR all:"smart grid")
+AND (all:"language model" OR all:LLM OR all:agentic)
+sortBy=submittedDate; sortOrder=descending; max_results=100
+```
 
-## Exclusion criteria
+The 100 returned candidates reached back into March 2026. They were screened for relevance; conventional control/MARL without a meaningful LLM connection and GPU-efficiency papers unrelated to grid decision support were not automatically included. Targeted searches and ID lookups supplemented this list, including VeraGrid-Agent and graph foundations. Boolean queries can be noisy or incomplete; this list is not definitive coverage.
 
-- Energy articles with no meaningful connection to electric grids, forecasting, operation, or diagnostic decision support.
-- Purely promotional pages without an identifiable scholarly record.
-- Duplicate preprint/published versions, except where the preprint has a distinct open-source artifact and is explicitly labeled.
-- References whose title or publication record could not be independently confirmed.
+## Selection and dates
 
-## Verification protocol
+- Include grid LLM agents, simulation/optimization, risk/fault diagnosis, evidence reporting, validation and relevant benchmarks.
+- Curate Graph + LLM computation/encoding, GNN alignment, GraphRAG/reasoning/memory and electrical applications. Older foundations are explicitly backfills.
+- Prefer verified formal versions; separately link open arXiv/PDF versions.
+- A submission, unverified acceptance comment or arXiv DOI does not establish formal publication.
+- Preprints use first-submission year. Formal versions use the verified conference/final-publication year; Early Access is explicit.
+- P020 explicitly distinguishes online availability in 2026 from its January 2027 issue. Cite 2027 when using final-issue metadata.
+- Later arXiv uploads do not make older publications new: GraLan is ISWC 2025 despite its 2026 arXiv ID.
+- Existing IDs are updated in place rather than adding another row for a formal version. P020/P028/P041/P053 were upgraded this way.
+- New entries with earlier preprints use the earliest verified release for date grouping. The FCS position paper is a backfill with an October 2026 formal publication.
+- Two entries with unresolved first-online dates are separated as `date_unresolved`; DOI registration dates appear only in notes.
 
-1. Normalize titles and remove exact-title duplicates.
-2. Prefer DOI, IEEE Xplore, publisher, arXiv, OpenReview, ACL Anthology, or institutional repository links over aggregator pages.
-3. Check that year and venue match the primary record or Crossref metadata.
-4. Mark arXiv/SSRN/Research Square/white papers as non-peer-reviewed.
-5. Add a code link only when a paper/project page identifies the repository or the repository identifies the paper.
-6. Run `python scripts/validate_catalog.py` to check required fields, duplicate titles, unique IDs, and URL schemes.
+## Verification trail and limits
 
-## Distribution summary
+`data/verification_2026-11-01.json` records sources, arXiv dates, PDFs, subcategories and caveats for every added/modified entry. `data/changes_2026-11-01.json` preserves six before/after corrections.
 
-- Status counts: {'published': 124, 'preprint': 26, 'workshop': 2, 'preprint-version': 1, 'early-access': 1, 'project': 1, 'white-paper': 1}
-- Publication years: {2026: 21, 2025: 34, 2024: 35, 2023: 14, 2022: 10, 2021: 12, 2020: 12, 2019: 6, 2018: 4, 2017: 3, 2016: 1, 2011: 1, 2009: 2, 2001: 1}
-- Most represented venues: {'arXiv': 22, 'IEEE Transactions on Smart Grid': 11, 'ICLR': 11, 'IEEE Transactions on Power Systems': 9, 'IEEE Access': 7, 'ICML': 7, 'NeurIPS': 7, 'AAAI': 5, 'IEEE Transactions on Industrial Informatics': 3, 'Energy and AI': 2}
+GraLan's mismatched arXiv-related DOI was corrected against the Springer chapter (`_33`, not `_3`). The `PAKDD 2066` comment on another record was not accepted as publication evidence. Revised PowerAtlas, GraphWiz and GNN-RAG titles were checked.
 
-## Coverage advisory
+- This is a curated update, not an exhaustive or full-text systematic review. Most screening used bibliographic metadata and abstracts; experimental claims were not independently reproduced.
+- Unchanged legacy entries were not all re-audited. Check publication status before manuscript citation.
+- Anti-bot restrictions prevented reading some IEEE/publisher pages. Crossref confirmed identities/venues/years where possible; unresolved dates remain explicit.
+- All 17 distinct GitHub repositories reported for new code/resource links were checked: 16 were accessible; GraphInfer-Bench returned 404 and its code link was removed from the main list while preserving the reported URL in verification metadata. Code links do not imply execution or reproducibility verification. Code availability and publication status may change after this snapshot.
+- GraphRAG findings do not prove electrical feasibility. Generic graph methods are supporting literature unless tested on a power task.
+- Chinese databases were not systematically searched; English primary records for an IEEE-facing manuscript were prioritized.
 
-The direct LLM/agent literature is heavily concentrated in 2024–2026 because the field is new. The catalog intentionally compensates by including older foundational work on FDIA, power-system simulation, OPF, time-series forecasting, graph learning, and physical validation. This temporal skew reflects field emergence, not a claim that earlier power-system AI research is unimportant.
+## Local validation
 
-## Known limitations
-
-- No database can guarantee “all papers,” especially for newly posted preprints and early-access records.
-- Some 2026 records may later receive final volume/issue/page metadata.
-- The generic time-series and graph-learning fields are too large for exhaustive coverage; these sections are curated baseline sets.
-- Code availability can change after the snapshot date.
-- Chinese-language databases were not treated as a primary corpus; English-language formal records are prioritized for an IEEE-facing manuscript.
-
-## Maintenance rule
-
-Re-run targeted searches monthly during active manuscript development and immediately before submission. When a preprint receives a formal DOI, update the venue/status and prefer the published record.
+Run `python3 scripts/validate_catalog.py` and `python3 scripts/validate_update.py`. They check fields, duplicate titles/DOIs, IDs, URL format, CSV/JSON agreement, change evidence, graph counts, README inclusion and local Markdown targets. They are not a complete live-link audit or scientific replication.

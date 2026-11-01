@@ -1,0 +1,123 @@
+{
+  "checked_on": "2026-11-01",
+  "scope": "GitHub repository existence/access for newly added code/resource links; no code execution",
+  "results": [
+    {
+      "repo": "JAVA-Jiang/PowerAtlas",
+      "status": "ok",
+      "full_name": "JAVA-Jiang/PowerAtlas",
+      "url": "https://github.com/JAVA-Jiang/PowerAtlas",
+      "description": null
+    },
+    {
+      "repo": "open-compass/PowerBench",
+      "status": "ok",
+      "full_name": "open-compass/PowerBench",
+      "url": "https://github.com/open-compass/PowerBench",
+      "description": "PowerBench: A Benchmark for Agentic Retrieval and Reasoning in Power Systems"
+    },
+    {
+      "repo": "Mansutti081/RestoreBench",
+      "status": "ok",
+      "full_name": "Mansutti081/RestoreBench",
+      "url": "https://github.com/Mansutti081/RestoreBench",
+      "description": "A benchmark for restoring AC power-flow convergence with LLM agents: 92 certified-solvable scenarios on IEEE 118-bus and PEGASE 89-bus."
+    },
+    {
+      "repo": "trashchenkov/power-systems-agent-benchmark",
+      "status": "ok",
+      "full_name": "trashchenkov/power-systems-agent-benchmark",
+      "url": "https://github.com/trashchenkov/power-systems-agent-benchmark",
+      "description": null
+    },
+    {
+      "repo": "PeterGriffinJin/Awesome-Language-Model-on-Graphs",
+      "status": "ok",
+      "full_name": "PeterGriffinJin/Awesome-Language-Model-on-Graphs",
+      "url": "https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs",
+      "description": "A curated list of papers and resources based on \"Large Language Models on Graphs: A Comprehensive Survey\" (TKDE)"
+    },
+    {
+      "repo": "graphinfer/GraphInfer-Bench",
+      "status": "tool_error",
+      "result": "{\"content\":[{\"type\":\"text\",\"text\":\"GitHub API error 404: {\\\"message\\\":\\\"Not Found\\\",\\\"documentation_url\\\":\\\"https://docs.github.com/rest\\\",\\\"status\\\":\\\"404\\\"}\"}],\"structuredContent\":{\"error\":\"GitHub A"
+    },
+    {
+      "repo": "squareRoot3/GraphArena",
+      "status": "ok",
+      "full_name": "squareRoot3/GraphArena",
+      "url": "https://github.com/squareRoot3/GraphArena",
+      "description": "\"GraphArena: Evaluating and Exploring Large Language Models on Graph Computation\" in ICLR 2025"
+    },
+    {
+      "repo": "Arthur-Heng/NLGraph",
+      "status": "ok",
+      "full_name": "Arthur-Heng/NLGraph",
+      "url": "https://github.com/Arthur-Heng/NLGraph",
+      "description": "Official repository of \"Can Language Models Solve Graph Problems in Natural Language?\". NeurIPS 2023 (Spotlight)"
+    },
+    {
+      "repo": "giuseppepirro/gralan",
+      "status": "ok",
+      "full_name": "giuseppepirro/gralan",
+      "url": "https://github.com/giuseppepirro/gralan",
+      "description": "Code for: The Graph Language"
+    },
+    {
+      "repo": "HKUDS/GraphGPT",
+      "status": "ok",
+      "full_name": "HKUDS/GraphGPT",
+      "url": "https://github.com/HKUDS/GraphGPT",
+      "description": "[SIGIR'2024] \"GraphGPT: Graph Instruction Tuning for Large Language Models\""
+    },
+    {
+      "repo": "VITA-Group/LLaGA",
+      "status": "ok",
+      "full_name": "VITA-Group/LLaGA",
+      "url": "https://github.com/VITA-Group/LLaGA",
+      "description": "[ICML2024] \"LLaGA: Large Language and Graph Assistant\", Runjin Chen, Tong Zhao, Ajay Jaiswal, Neil Shah, Zhangyang Wang"
+    },
+    {
+      "repo": "XiaoxinHe/TAPE",
+      "status": "ok",
+      "full_name": "XiaoxinHe/TAPE",
+      "url": "https://github.com/XiaoxinHe/TAPE",
+      "description": "Official Implementation of ICLR 2024 paper \"Harnessing Explanations: LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning\""
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "status": "ok",
+      "full_name": "microsoft/graphrag",
+      "url": "https://github.com/microsoft/graphrag",
+      "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system"
+    },
+    {
+      "repo": "HKUDS/LightRAG",
+      "status": "ok",
+      "full_name": "HKUDS/LightRAG",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "description": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation"
+    },
+    {
+      "repo": "OSU-NLP-Group/HippoRAG",
+      "status": "ok",
+      "full_name": "OSU-NLP-Group/HippoRAG",
+      "url": "https://github.com/OSU-NLP-Group/HippoRAG",
+      "description": "[NeurIPS'24] HippoRAG is a novel RAG framework inspired by human long-term memory that enables LLMs to continuously integrate knowledge across external documents. RAG + Knowledge Graphs + Personalized PageRank."
+    },
+    {
+      "repo": "cmavro/GNN-RAG",
+      "status": "ok",
+      "full_name": "cmavro/GNN-RAG",
+      "url": "https://github.com/cmavro/GNN-RAG",
+      "description": "GNN-RAG: Graph Neural Retrieval for Large Language Modeling Reasoning"
+    },
+    {
+      "repo": "XiaoxinHe/G-Retriever",
+      "status": "ok",
+      "full_name": "XiaoxinHe/G-Retriever",
+      "url": "https://github.com/XiaoxinHe/G-Retriever",
+      "description": "Official Implementation of NeurIPS 2024 paper \"G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering\"\""
+    }
+  ]
+}

@@ -4,10 +4,10 @@ title: "Awesome PhysChronoGrid Papers"
 type: dataset
 authors:
   - name: "PhysChronoGrid Literature Curation Team"
-version: 1.0.0
-date-released: 2026-07-19
+version: 1.1.0
+date-released: 2026-11-01
 license: MIT
-repository-code: "https://github.com/<your-account>/awesome-physchronogrid-papers"
+repository-code: "https://github.com/VhoCheng/Paper-List-for-CPPS-LLM-Agent"
 keywords:
   - power systems
   - smart grid

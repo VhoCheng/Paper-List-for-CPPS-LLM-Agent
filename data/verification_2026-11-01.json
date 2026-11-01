@@ -1,0 +1,1833 @@
+{
+  "snapshot": "2026-11-01",
+  "baseline_snapshot": "2026-07-19",
+  "baseline_commit": "9a10f0a605d85bbcb5ea2ef19bc365fc9fd150e6",
+  "scope": "New and modified records only; not a full audit of unchanged legacy records.",
+  "records": {
+    "P020": {
+      "arxiv_id": "2605.31478",
+      "arxiv_url": "https://arxiv.org/abs/2605.31478",
+      "pdf_url": "https://arxiv.org/pdf/2605.31478",
+      "arxiv_first_submitted": "2026-05-29",
+      "arxiv_last_updated": "2026-10-07",
+      "authors": [
+        "Hui Wu",
+        "Xiaoyang Wang",
+        "Zhong Fan"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2605.31478",
+        "https://api.crossref.org/works/10.1016/j.aei.2026.105328",
+        "https://www.sciencedirect.com/science/article/pii/S1474034626010207"
+      ],
+      "notes": [
+        "Published version verified; final volume 77 is dated January 2027. The catalog retains 2026 as the online-availability year; use 2027 when citing the final issue."
+      ],
+      "change_type": "updated",
+      "update_group": "metadata_update"
+    },
+    "P026": {
+      "arxiv_id": "2508.05702",
+      "arxiv_url": "https://arxiv.org/abs/2508.05702",
+      "pdf_url": "https://arxiv.org/pdf/2508.05702",
+      "arxiv_first_submitted": "2025-08-07",
+      "arxiv_last_updated": "2025-09-08",
+      "authors": [
+        "Yan Zhang",
+        "Ahmad Mohammad Saber",
+        "Amr Youssef",
+        "Deepa Kundur"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2508.05702"
+      ],
+      "notes": [],
+      "change_type": "updated",
+      "update_group": "metadata_update"
+    },
+    "P028": {
+      "change_type": "updated",
+      "update_group": "metadata_update",
+      "verified_on": "2026-11-01",
+      "arxiv_url": "https://arxiv.org/abs/2507.21162",
+      "pdf_url": "https://arxiv.org/pdf/2507.21162",
+      "verification_sources": [
+        "https://ieeexplore.ieee.org/document/11203260/",
+        "https://api.crossref.org/works/10.1109/TSG.2025.3621438"
+      ],
+      "notes": [
+        "Online publication: 2025-10-14; final issue: March 2026, volume 17(2), pages 952–965. This is a correction of an existing record, not a new paper."
+      ]
+    },
+    "P041": {
+      "arxiv_id": "2501.07639",
+      "arxiv_url": "https://arxiv.org/abs/2501.07639",
+      "pdf_url": "https://arxiv.org/pdf/2501.07639",
+      "arxiv_first_submitted": "2025-01-13",
+      "arxiv_last_updated": "2026-01-27",
+      "authors": [
+        "Fabien Bernier",
+        "Jun Cao",
+        "Maxime Cordy",
+        "Salah Ghamizi"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2501.07639",
+        "https://api.crossref.org/works/10.1109/TPWRS.2025.3596774"
+      ],
+      "notes": [],
+      "change_type": "updated",
+      "update_group": "metadata_update",
+      "subcategory": "power_applications"
+    },
+    "P053": {
+      "arxiv_id": "2502.16896",
+      "arxiv_url": "https://arxiv.org/abs/2502.16896",
+      "pdf_url": "https://arxiv.org/pdf/2502.16896",
+      "arxiv_first_submitted": "2025-02-24",
+      "arxiv_last_updated": "2025-02-24",
+      "authors": [
+        "Jiaheng Li",
+        "Donghe Li",
+        "Ye Yang",
+        "Huan Xi",
+        "Yu Xiao",
+        "Li Sun",
+        "Dou An",
+        "Qingyu Yang"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2502.16896",
+        "https://www.sciencedirect.com/science/article/pii/S0925231225019605"
+      ],
+      "notes": [
+        "Published in Neurocomputing 654 (2025), 131288."
+      ],
+      "change_type": "updated",
+      "update_group": "metadata_update"
+    },
+    "P124": {
+      "arxiv_id": "2407.08836",
+      "arxiv_url": "https://arxiv.org/abs/2407.08836",
+      "pdf_url": "https://arxiv.org/pdf/2407.08836",
+      "arxiv_first_submitted": "2024-07-11",
+      "arxiv_last_updated": "2024-07-11",
+      "authors": [
+        "Liu Jing",
+        "Amirul Rahman"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2407.08836"
+      ],
+      "notes": [
+        "Corrected preprint year from 2025 to first submission year 2024; no verified formal venue is asserted."
+      ],
+      "change_type": "updated",
+      "update_group": "metadata_update"
+    },
+    "P157": {
+      "arxiv_id": "2607.18147",
+      "arxiv_url": "https://arxiv.org/abs/2607.18147",
+      "pdf_url": "https://arxiv.org/pdf/2607.18147",
+      "arxiv_first_submitted": "2026-07-20",
+      "arxiv_last_updated": "2026-07-20",
+      "authors": [
+        "Daniela Rojas",
+        "Abdulwahab Albassam",
+        "Aidan G. Leung",
+        "Jett Ngo",
+        "Ryan Luo",
+        "Peter R. Quawas",
+        "Junpyung Kim",
+        "Kangkai Liang",
+        "Mansi Nanavati",
+        "Jonathan Mai",
+        "Meng-Chi Tsai",
+        "Yun-Tong Tsai",
+        "Yize Chen",
+        "Yuanyuan Shi"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2607.18147"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-07-20"
+    },
+    "P158": {
+      "arxiv_id": "2607.28822",
+      "arxiv_url": "https://arxiv.org/abs/2607.28822",
+      "pdf_url": "https://arxiv.org/pdf/2607.28822",
+      "arxiv_first_submitted": "2026-07-30",
+      "arxiv_last_updated": "2026-07-30",
+      "authors": [
+        "Eve Tsybina",
+        "Samim Konjicija",
+        "Slaven Peles"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2607.28822"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-07-30"
+    },
+    "P159": {
+      "arxiv_id": "2607.18548",
+      "arxiv_url": "https://arxiv.org/abs/2607.18548",
+      "pdf_url": "https://arxiv.org/pdf/2607.18548",
+      "arxiv_first_submitted": "2026-07-20",
+      "arxiv_last_updated": "2026-07-20",
+      "authors": [
+        "Omar Al-Refai",
+        "Ibrahim Shahbaz",
+        "Adam Ali Husseinat",
+        "Michael Mandulak",
+        "Jaewon Kim",
+        "Eman Hammad"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2607.18548"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-07-20"
+    },
+    "P160": {
+      "verified_on": "2026-11-01",
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "date_unresolved",
+      "first_public_date": "",
+      "date_basis": "",
+      "doi": "10.1109/TSG.2026.3717716",
+      "verification_sources": [
+        "https://doi.org/10.1109/TSG.2026.3717716",
+        "https://api.crossref.org/works/10.1109/TSG.2026.3717716",
+        "https://ieeexplore.ieee.org/document/11626992/"
+      ],
+      "notes": [
+        "Crossref confirms the title, venue and November 2026 issue. DOI registered 2026-07-28; exact first-online date not independently resolved. Do not use the registration date as the publication date."
+      ],
+      "authors": [
+        "Pei Zhang",
+        "Yichen Sun",
+        "Chenggang Cui",
+        "Chuanlin Zhang"
+      ]
+    },
+    "P161": {
+      "arxiv_id": "2609.40272",
+      "arxiv_url": "https://arxiv.org/abs/2609.40272",
+      "pdf_url": "https://arxiv.org/pdf/2609.40272",
+      "arxiv_first_submitted": "2026-09-30",
+      "arxiv_last_updated": "2026-10-01",
+      "authors": [
+        "Pavel Etingov",
+        "Shuchismita Biswas"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2609.40272"
+      ],
+      "notes": [
+        "Submitted to a 2027 conference; submission is not acceptance, so retained as a 2026 preprint."
+      ],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-09-30"
+    },
+    "P162": {
+      "arxiv_id": "2607.25155",
+      "arxiv_url": "https://arxiv.org/abs/2607.25155",
+      "pdf_url": "https://arxiv.org/pdf/2607.25155",
+      "arxiv_first_submitted": "2026-07-28",
+      "arxiv_last_updated": "2026-07-28",
+      "authors": [
+        "Shivanshu Tripathi",
+        "Hamed Mohsenian-Rad",
+        "Maziar Raissi"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2607.25155"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-07-28"
+    },
+    "P163": {
+      "arxiv_id": "2606.24609",
+      "arxiv_url": "https://arxiv.org/abs/2606.24609",
+      "pdf_url": "https://arxiv.org/pdf/2606.24609",
+      "arxiv_first_submitted": "2026-06-23",
+      "arxiv_last_updated": "2026-06-23",
+      "authors": [
+        "Antonio Alcántara",
+        "Aysegül Kahraman",
+        "Anosh Arshad Sundhu",
+        "Spyros Chatzivasileiadis"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2606.24609"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-06-23"
+    },
+    "P164": {
+      "arxiv_id": "2605.12728",
+      "arxiv_url": "https://arxiv.org/abs/2605.12728",
+      "pdf_url": "https://arxiv.org/pdf/2605.12728",
+      "arxiv_first_submitted": "2026-05-12",
+      "arxiv_last_updated": "2026-09-25",
+      "authors": [
+        "Boming Liu",
+        "Jin Dong",
+        "Jianming Lian"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2605.12728",
+        "https://doi.org/10.1109/OAJPE.2026.3721083",
+        "https://api.crossref.org/works/10.1109/OAJPE.2026.3721083"
+      ],
+      "notes": [
+        "Preprint first posted 2026-05-12; formal publication verified. Classified as backfill, even though the journal version was recorded later."
+      ],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-05-12"
+    },
+    "P165": {
+      "arxiv_id": "2604.10846",
+      "arxiv_url": "https://arxiv.org/abs/2604.10846",
+      "pdf_url": "https://arxiv.org/pdf/2604.10846",
+      "arxiv_first_submitted": "2026-04-12",
+      "arxiv_last_updated": "2026-04-12",
+      "authors": [
+        "Buxin She",
+        "Brian Chen",
+        "Luanzheng Guo",
+        "Fangxing Li"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2604.10846"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-04-12"
+    },
+    "P166": {
+      "arxiv_id": "2604.09995",
+      "arxiv_url": "https://arxiv.org/abs/2604.09995",
+      "pdf_url": "https://arxiv.org/pdf/2604.09995",
+      "arxiv_first_submitted": "2026-04-11",
+      "arxiv_last_updated": "2026-04-11",
+      "authors": [
+        "Qinjuan Wang",
+        "Shan Yang",
+        "Yongli Zhu"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2604.09995"
+      ],
+      "notes": [
+        "Authors report acceptance at CEEPE 2026. This catalog links and labels the arXiv version pending a separately verified proceedings record."
+      ],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-04-11"
+    },
+    "P167": {
+      "arxiv_id": "2606.31314",
+      "arxiv_url": "https://arxiv.org/abs/2606.31314",
+      "pdf_url": "https://arxiv.org/pdf/2606.31314",
+      "arxiv_first_submitted": "2026-06-30",
+      "arxiv_last_updated": "2026-06-30",
+      "authors": [
+        "Xinming Wang",
+        "Fan Tang",
+        "Yingli Wei",
+        "Yakun He",
+        "Zhe Liu",
+        "Ping Jiang",
+        "Haoyu Wu",
+        "Zihan Guo",
+        "Chao Shen"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2606.31314"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-06-30"
+    },
+    "P168": {
+      "verified_on": "2026-11-01",
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "first_public_date": "2026-09-08",
+      "date_basis": "IEEE Date of Publication",
+      "doi": "10.1109/TSG.2026.3731592",
+      "verification_sources": [
+        "https://doi.org/10.1109/TSG.2026.3731592",
+        "https://api.crossref.org/works/10.1109/TSG.2026.3731592",
+        "https://ieeexplore.ieee.org/document/11683878/"
+      ],
+      "notes": [],
+      "authors": [
+        "Duange Guo",
+        "Shanyu Li",
+        "Xingyu Shi",
+        "Shan Jiang",
+        "Georgios Konstantinou",
+        "Yijia Cao"
+      ]
+    },
+    "P169": {
+      "verified_on": "2026-11-01",
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "first_public_date": "2026-08-21",
+      "date_basis": "conference start; IEEE Xplore added 2026-10-07",
+      "doi": "10.1109/PSGEC70194.2026.11719174",
+      "verification_sources": [
+        "https://doi.org/10.1109/PSGEC70194.2026.11719174",
+        "https://api.crossref.org/works/10.1109/PSGEC70194.2026.11719174",
+        "https://ieeexplore.ieee.org/document/11719174/"
+      ],
+      "notes": [],
+      "authors": [
+        "Yan Gao",
+        "Jin Xu"
+      ]
+    },
+    "P170": {
+      "arxiv_id": "2607.26710",
+      "arxiv_url": "https://arxiv.org/abs/2607.26710",
+      "pdf_url": "https://arxiv.org/pdf/2607.26710",
+      "arxiv_first_submitted": "2026-07-29",
+      "arxiv_last_updated": "2026-10-15",
+      "authors": [
+        "Kaiwen Jiang",
+        "Siya Xu",
+        "Ziyue Zhu",
+        "Kaiwen Xue",
+        "Chao Yang",
+        "Anh Tuan Luu",
+        "Haoran Luo"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2607.26710"
+      ],
+      "notes": [
+        "Use revised v2 title (2026-10-15). The initial v1 title was PowerAtlas: Towards Electricity-Computing Co-Scheduling for Power Systems. v2 describes feasibility-aware training, not a retrieval-and-solver agent at inference."
+      ],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-07-29"
+    },
+    "P171": {
+      "arxiv_id": "2609.13805",
+      "arxiv_url": "https://arxiv.org/abs/2609.13805",
+      "pdf_url": "https://arxiv.org/pdf/2609.13805",
+      "arxiv_first_submitted": "2026-09-12",
+      "arxiv_last_updated": "2026-09-12",
+      "authors": [
+        "Yang Zhang",
+        "Lindong Xie",
+        "Chongyu Wang",
+        "Gaojunjie Li",
+        "Siqi Bu",
+        "Edward Chung"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2609.13805"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-09-12"
+    },
+    "P172": {
+      "arxiv_id": "2609.05462",
+      "arxiv_url": "https://arxiv.org/abs/2609.05462",
+      "pdf_url": "https://arxiv.org/pdf/2609.05462",
+      "arxiv_first_submitted": "2026-08-12",
+      "arxiv_last_updated": "2026-08-12",
+      "authors": [
+        "Ismail Lotfi",
+        "Ali Ghrayeb",
+        "Haitham Abu-Rub"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2609.05462"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-08-12"
+    },
+    "P173": {
+      "arxiv_id": "2608.21858",
+      "arxiv_url": "https://arxiv.org/abs/2608.21858",
+      "pdf_url": "https://arxiv.org/pdf/2608.21858",
+      "arxiv_first_submitted": "2026-08-22",
+      "arxiv_last_updated": "2026-08-22",
+      "authors": [
+        "Xu Yang",
+        "Chenhui Lin",
+        "Haotian Liu",
+        "Kaihang Deng",
+        "Yunhe Li",
+        "Wenchuan Wu"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2608.21858"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-08-22"
+    },
+    "P174": {
+      "verified_on": "2026-11-01",
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "first_public_date": "2026-09-04",
+      "date_basis": "IEEE Date of Publication",
+      "doi": "10.1109/TII.2026.3725105",
+      "verification_sources": [
+        "https://doi.org/10.1109/TII.2026.3725105",
+        "https://api.crossref.org/works/10.1109/TII.2026.3725105",
+        "https://ieeexplore.ieee.org/document/11678968/"
+      ],
+      "notes": [],
+      "authors": [
+        "Yibo Chu",
+        "Kaile Zhou"
+      ]
+    },
+    "P175": {
+      "verified_on": "2026-11-01",
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "first_public_date": "2026-08-20",
+      "date_basis": "IEEE Date of Publication; author institutional record",
+      "doi": "10.1109/TSG.2026.3725028",
+      "verification_sources": [
+        "https://doi.org/10.1109/TSG.2026.3725028",
+        "https://api.crossref.org/works/10.1109/TSG.2026.3725028",
+        "https://ieeexplore.ieee.org/document/11658970/",
+        "https://scholars.cityu.edu.hk/en/publications/stdeepseek-continual-learning-enhanced-spatiotemporal-large-langu/"
+      ],
+      "notes": [],
+      "authors": [
+        "Xuchen Gu",
+        "Zipeng Liang",
+        "C.Y. Chung",
+        "Chaojie Li",
+        "Xueqian Fu",
+        "Qin Wang",
+        "Jizhong Zhu"
+      ]
+    },
+    "P176": {
+      "verified_on": "2026-11-01",
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "date_unresolved",
+      "first_public_date": "",
+      "date_basis": "",
+      "doi": "10.1109/TSG.2026.3744756",
+      "verification_sources": [
+        "https://doi.org/10.1109/TSG.2026.3744756",
+        "https://api.crossref.org/works/10.1109/TSG.2026.3744756",
+        "https://ieeexplore.ieee.org/document/11741341/"
+      ],
+      "notes": [
+        "Crossref confirms title, venue and 2026 publication year; DOI registered 2026-10-19. Exact IEEE first-online date could not be independently read, so this is not counted as a date-verified post-cutoff first release."
+      ],
+      "authors": [
+        "Yiyang Song",
+        "Shaokai Zhu",
+        "Tao Li",
+        "Cong Wu",
+        "Yi Wang",
+        "Jianxiao Wang"
+      ]
+    },
+    "P177": {
+      "verified_on": "2026-11-01",
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "first_public_date": "2026-01-15",
+      "date_basis": "IEEE Date of Publication; final issue July 2026",
+      "doi": "10.1109/TPWRS.2026.3654059",
+      "verification_sources": [
+        "https://doi.org/10.1109/TPWRS.2026.3654059",
+        "https://api.crossref.org/works/10.1109/TPWRS.2026.3654059",
+        "https://ieeexplore.ieee.org/document/11353017/"
+      ],
+      "notes": [],
+      "authors": [
+        "Yating Zhou",
+        "Shuai Zhang",
+        "Meng Wang"
+      ]
+    },
+    "P178": {
+      "arxiv_id": "2607.07237",
+      "arxiv_url": "https://arxiv.org/abs/2607.07237",
+      "pdf_url": "https://arxiv.org/pdf/2607.07237",
+      "arxiv_first_submitted": "2026-07-08",
+      "arxiv_last_updated": "2026-07-08",
+      "authors": [
+        "Zhenghao Zhou",
+        "Yiyan Li",
+        "Tao Xu",
+        "Yike Guo",
+        "Zheng Yan",
+        "Mo-Yuen Chow"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2607.07237"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-07-08"
+    },
+    "P179": {
+      "arxiv_id": "2604.26079",
+      "arxiv_url": "https://arxiv.org/abs/2604.26079",
+      "pdf_url": "https://arxiv.org/pdf/2604.26079",
+      "arxiv_first_submitted": "2026-04-28",
+      "arxiv_last_updated": "2026-04-28",
+      "authors": [
+        "Weiyi Kong",
+        "Ahmad Mohammad Saber",
+        "Amr Youssef",
+        "Deepa Kundur"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2604.26079"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-04-28"
+    },
+    "P180": {
+      "arxiv_id": "2604.23341",
+      "arxiv_url": "https://arxiv.org/abs/2604.23341",
+      "pdf_url": "https://arxiv.org/pdf/2604.23341",
+      "arxiv_first_submitted": "2026-04-25",
+      "arxiv_last_updated": "2026-08-09",
+      "authors": [
+        "Taha Hammadia",
+        "Lucas Rea",
+        "Ahmad Mohammad Saber",
+        "Amr Youssef",
+        "Deepa Kundur"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2604.23341"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-04-25"
+    },
+    "P181": {
+      "verified_on": "2026-11-01",
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "first_public_date": "",
+      "date_basis": "Crossref registration establishes pre-cutoff availability; exact first-online publication date unresolved",
+      "doi": "10.1109/TSG.2026.3681079",
+      "verification_sources": [
+        "https://doi.org/10.1109/TSG.2026.3681079",
+        "https://api.crossref.org/works/10.1109/TSG.2026.3681079",
+        "https://ieeexplore.ieee.org/document/11475234/"
+      ],
+      "notes": [
+        "Final issue September 2026. DOI already registered in April 2026, so treated as a pre-cutoff backfill, not a new September paper."
+      ],
+      "authors": [
+        "Bingrui Wang",
+        "Yuan Zhou",
+        "Shouxiang Wang",
+        "Bowen Xu",
+        "Ruilong Deng"
+      ],
+      "available_by": "2026-04-06"
+    },
+    "P182": {
+      "arxiv_id": "2609.16774",
+      "arxiv_url": "https://arxiv.org/abs/2609.16774",
+      "pdf_url": "https://arxiv.org/pdf/2609.16774",
+      "arxiv_first_submitted": "2026-09-15",
+      "arxiv_last_updated": "2026-09-15",
+      "authors": [
+        "Biswas Rudra Jyoti Arka",
+        "Sadman Sakib",
+        "Md. Zahidul Islam",
+        "Shamsun Nahar Edib"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2609.16774"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-09-15"
+    },
+    "P183": {
+      "arxiv_id": "2608.17433",
+      "arxiv_url": "https://arxiv.org/abs/2608.17433",
+      "pdf_url": "https://arxiv.org/pdf/2608.17433",
+      "arxiv_first_submitted": "2026-08-18",
+      "arxiv_last_updated": "2026-08-18",
+      "authors": [
+        "Liangtao Lin",
+        "Qingang Zhang",
+        "Zhaomeng Zhu",
+        "Tianwei Zhang",
+        "Yonggang Wen"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2608.17433"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-08-18"
+    },
+    "P184": {
+      "arxiv_id": "2607.04374",
+      "arxiv_url": "https://arxiv.org/abs/2607.04374",
+      "pdf_url": "https://arxiv.org/pdf/2607.04374",
+      "arxiv_first_submitted": "2026-07-05",
+      "arxiv_last_updated": "2026-07-05",
+      "authors": [
+        "Venkata Sesha Sai Raj Nanduri",
+        "Akthar Hussain",
+        "Van-Hai Bui"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2607.04374"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-07-05"
+    },
+    "P185": {
+      "arxiv_id": "2609.34492",
+      "arxiv_url": "https://arxiv.org/abs/2609.34492",
+      "pdf_url": "https://arxiv.org/pdf/2609.34492",
+      "arxiv_first_submitted": "2026-09-28",
+      "arxiv_last_updated": "2026-09-28",
+      "authors": [
+        "Xijing Wang",
+        "Yinsheng Yao",
+        "Jinru Ding",
+        "Yidong Jiang",
+        "Ziwen Xu",
+        "Yiwen Jiang",
+        "Jie Xu",
+        "Dawei Cheng"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2609.34492"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-09-28"
+    },
+    "P186": {
+      "arxiv_id": "2609.00384",
+      "arxiv_url": "https://arxiv.org/abs/2609.00384",
+      "pdf_url": "https://arxiv.org/pdf/2609.00384",
+      "arxiv_first_submitted": "2026-08-31",
+      "arxiv_last_updated": "2026-08-31",
+      "authors": [
+        "Riccardo Mansutti",
+        "Andrea Pomarico",
+        "Robert Jakob",
+        "Qian Zhang",
+        "Alberto Berizzi",
+        "Kevin O'Sullivan"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2609.00384"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-08-31"
+    },
+    "P187": {
+      "arxiv_id": "2606.18789",
+      "arxiv_url": "https://arxiv.org/abs/2606.18789",
+      "pdf_url": "https://arxiv.org/pdf/2606.18789",
+      "arxiv_first_submitted": "2026-06-17",
+      "arxiv_last_updated": "2026-06-17",
+      "authors": [
+        "Costas Mylonas",
+        "Magda Foti",
+        "Andrea Pomarico",
+        "Matheus Duarte",
+        "Qian Zhang",
+        "Emmanouel Varvarigos"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2606.18789"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-06-17"
+    },
+    "P188": {
+      "arxiv_id": "2606.20401",
+      "arxiv_url": "https://arxiv.org/abs/2606.20401",
+      "pdf_url": "https://arxiv.org/pdf/2606.20401",
+      "arxiv_first_submitted": "2026-06-18",
+      "arxiv_last_updated": "2026-06-18",
+      "authors": [
+        "Qian Zhang",
+        "Andrea Pomarico",
+        "Costas Mylonas",
+        "Magda Foti",
+        "Alberto Berizzi",
+        "Le Xie"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2606.20401"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-06-18"
+    },
+    "P189": {
+      "arxiv_id": "2606.20950",
+      "arxiv_url": "https://arxiv.org/abs/2606.20950",
+      "pdf_url": "https://arxiv.org/pdf/2606.20950",
+      "arxiv_first_submitted": "2026-06-18",
+      "arxiv_last_updated": "2026-07-02",
+      "authors": [
+        "Sergei Trashchenkov"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2606.20950"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-06-18"
+    },
+    "P190": {
+      "arxiv_id": "2605.18642",
+      "arxiv_url": "https://arxiv.org/abs/2605.18642",
+      "pdf_url": "https://arxiv.org/pdf/2605.18642",
+      "arxiv_first_submitted": "2026-05-18",
+      "arxiv_last_updated": "2026-05-18",
+      "authors": [
+        "Tingwei Chen",
+        "Kaiyang Huang",
+        "Kai Sun"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2605.18642"
+      ],
+      "notes": [],
+      "subcategory": "",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-05-18"
+    },
+    "P191": {
+      "arxiv_id": "2606.06865",
+      "arxiv_url": "https://arxiv.org/abs/2606.06865",
+      "pdf_url": "https://arxiv.org/pdf/2606.06865",
+      "arxiv_first_submitted": "2026-06-05",
+      "arxiv_last_updated": "2026-06-05",
+      "authors": [
+        "Yuting Zhang",
+        "Yi Han",
+        "Kai Wang",
+        "Wei Ni",
+        "Angela Bonifati",
+        "Wenjie Zhang"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2606.06865"
+      ],
+      "notes": [],
+      "subcategory": "surveys",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-06-05"
+    },
+    "P192": {
+      "arxiv_id": "2606.11560",
+      "arxiv_url": "https://arxiv.org/abs/2606.11560",
+      "pdf_url": "https://arxiv.org/pdf/2606.11560",
+      "arxiv_first_submitted": "2026-06-10",
+      "arxiv_last_updated": "2026-06-10",
+      "authors": [
+        "Arijit Khan",
+        "Longxu Sun",
+        "Xin Huang"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2606.11560"
+      ],
+      "notes": [
+        "The arXiv comment contains the inconsistent year PAKDD 2066. No formal venue is assigned on that basis; retained as a 2026 arXiv preprint."
+      ],
+      "subcategory": "surveys",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-06-10"
+    },
+    "P193": {
+      "arxiv_id": "2605.02452",
+      "arxiv_url": "https://arxiv.org/abs/2605.02452",
+      "pdf_url": "https://arxiv.org/pdf/2605.02452",
+      "arxiv_first_submitted": "2026-05-04",
+      "arxiv_last_updated": "2026-05-04",
+      "authors": [
+        "Xiyuan Wang",
+        "Yi Hu",
+        "Yanbo Wang",
+        "Chuan Shi",
+        "Muhan Zhang"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2605.02452",
+        "https://doi.org/10.1007/s11704-026-51651-6",
+        "https://api.crossref.org/works/10.1007/s11704-026-51651-6"
+      ],
+      "notes": [
+        "Formal publication dated 2026-10-26; first arXiv version 2026-05-04. Backfill with a post-cutoff formal publication."
+      ],
+      "subcategory": "surveys",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-05-04"
+    },
+    "P194": {
+      "arxiv_id": "2604.15951",
+      "arxiv_url": "https://arxiv.org/abs/2604.15951",
+      "pdf_url": "https://arxiv.org/pdf/2604.15951",
+      "arxiv_first_submitted": "2026-04-17",
+      "arxiv_last_updated": "2026-04-20",
+      "authors": [
+        "Hamed Jelodar",
+        "Samita Bai",
+        "Mohammad Meymani",
+        "Parisa Hamedi",
+        "Roozbeh Razavi-Far",
+        "Ali Ghorbani"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2604.15951"
+      ],
+      "notes": [],
+      "subcategory": "surveys",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-04-17"
+    },
+    "P195": {
+      "arxiv_id": "2306.08302",
+      "arxiv_url": "https://arxiv.org/abs/2306.08302",
+      "pdf_url": "https://arxiv.org/pdf/2306.08302",
+      "arxiv_first_submitted": "2023-06-14",
+      "arxiv_last_updated": "2024-01-25",
+      "authors": [
+        "Shirui Pan",
+        "Linhao Luo",
+        "Yufei Wang",
+        "Chen Chen",
+        "Jiapu Wang",
+        "Xindong Wu"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2306.08302",
+        "https://doi.org/10.1109/TKDE.2024.3352100",
+        "https://api.crossref.org/works/10.1109/TKDE.2024.3352100"
+      ],
+      "notes": [],
+      "subcategory": "surveys",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2023-06-14"
+    },
+    "P196": {
+      "arxiv_id": "2312.02783",
+      "arxiv_url": "https://arxiv.org/abs/2312.02783",
+      "pdf_url": "https://arxiv.org/pdf/2312.02783",
+      "arxiv_first_submitted": "2023-12-05",
+      "arxiv_last_updated": "2024-11-20",
+      "authors": [
+        "Bowen Jin",
+        "Gang Liu",
+        "Chi Han",
+        "Meng Jiang",
+        "Heng Ji",
+        "Jiawei Han"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2312.02783",
+        "https://doi.org/10.1109/TKDE.2024.3469578",
+        "https://api.crossref.org/works/10.1109/TKDE.2024.3469578"
+      ],
+      "notes": [
+        "Linked repository is a survey resource list, not an executable implementation."
+      ],
+      "subcategory": "surveys",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2023-12-05"
+    },
+    "P197": {
+      "arxiv_id": "2608.01684",
+      "arxiv_url": "https://arxiv.org/abs/2608.01684",
+      "pdf_url": "https://arxiv.org/pdf/2608.01684",
+      "arxiv_first_submitted": "2026-08-03",
+      "arxiv_last_updated": "2026-08-03",
+      "authors": [
+        "Jiarui Tan",
+        "Zhongjian Zhang",
+        "YaBo Guo",
+        "Jiawei Liu",
+        "Yujie Xing",
+        "Muhan Zhang",
+        "Cheng Yang",
+        "Chuan Shi"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2608.01684"
+      ],
+      "notes": [],
+      "subcategory": "computation",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-08-03"
+    },
+    "P198": {
+      "arxiv_id": "2606.11562",
+      "arxiv_url": "https://arxiv.org/abs/2606.11562",
+      "pdf_url": "https://arxiv.org/pdf/2606.11562",
+      "arxiv_first_submitted": "2026-06-10",
+      "arxiv_last_updated": "2026-06-10",
+      "authors": [
+        "Zhuoyi Peng",
+        "Jingzhou Jiang",
+        "Hanlin Gu",
+        "Lixin Fan",
+        "Yi Yang"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2606.11562"
+      ],
+      "notes": [
+        "The paper reports this code URL, but GitHub API returned 404 during the check. No accessible repository was verified, so code_url is left empty in the main catalog. This does not establish whether the repository is private, removed, or not yet released."
+      ],
+      "subcategory": "computation",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-06-10",
+      "reported_code_url": "https://github.com/graphinfer/GraphInfer-Bench"
+    },
+    "P199": {
+      "arxiv_id": "2609.03229",
+      "arxiv_url": "https://arxiv.org/abs/2609.03229",
+      "pdf_url": "https://arxiv.org/pdf/2609.03229",
+      "arxiv_first_submitted": "2026-09-03",
+      "arxiv_last_updated": "2026-09-03",
+      "authors": [
+        "Ucchwas Talukder Utsha",
+        "Sakib Mostafa",
+        "James Zou",
+        "Md Tauhidul Islam"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2609.03229"
+      ],
+      "notes": [],
+      "subcategory": "computation",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-09-03"
+    },
+    "P200": {
+      "arxiv_id": "2407.00379",
+      "arxiv_url": "https://arxiv.org/abs/2407.00379",
+      "pdf_url": "https://arxiv.org/pdf/2407.00379",
+      "arxiv_first_submitted": "2024-06-29",
+      "arxiv_last_updated": "2025-02-15",
+      "authors": [
+        "Jianheng Tang",
+        "Qifan Zhang",
+        "Yuhan Li",
+        "Nuo Chen",
+        "Jia Li"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2407.00379",
+        "https://openreview.net/forum?id=Y1r9yCMzeA"
+      ],
+      "notes": [],
+      "subcategory": "computation",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2024-06-29"
+    },
+    "P201": {
+      "arxiv_id": "2402.16029",
+      "arxiv_url": "https://arxiv.org/abs/2402.16029",
+      "pdf_url": "https://arxiv.org/pdf/2402.16029",
+      "arxiv_first_submitted": "2024-02-25",
+      "arxiv_last_updated": "2024-07-03",
+      "authors": [
+        "Nuo Chen",
+        "Yuhan Li",
+        "Jianheng Tang",
+        "Jia Li"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2402.16029",
+        "https://doi.org/10.1145/3637528.3672010",
+        "https://api.crossref.org/works/10.1145/3637528.3672010"
+      ],
+      "notes": [],
+      "subcategory": "computation",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2024-02-25"
+    },
+    "P202": {
+      "arxiv_id": "2310.04560",
+      "arxiv_url": "https://arxiv.org/abs/2310.04560",
+      "pdf_url": "https://arxiv.org/pdf/2310.04560",
+      "arxiv_first_submitted": "2023-10-06",
+      "arxiv_last_updated": "2023-10-06",
+      "authors": [
+        "Bahare Fatemi",
+        "Jonathan Halcrow",
+        "Bryan Perozzi"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2310.04560",
+        "https://research.google/pubs/talk-like-a-graph-encoding-graphs-for-large-language-models/"
+      ],
+      "notes": [],
+      "subcategory": "computation",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2023-10-06"
+    },
+    "P203": {
+      "arxiv_id": "2305.10037",
+      "arxiv_url": "https://arxiv.org/abs/2305.10037",
+      "pdf_url": "https://arxiv.org/pdf/2305.10037",
+      "arxiv_first_submitted": "2023-05-17",
+      "arxiv_last_updated": "2024-01-06",
+      "authors": [
+        "Heng Wang",
+        "Shangbin Feng",
+        "Tianxing He",
+        "Zhaoxuan Tan",
+        "Xiaochuang Han",
+        "Yulia Tsvetkov"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2305.10037",
+        "https://arxiv.org/abs/2305.10037"
+      ],
+      "notes": [
+        "NeurIPS 2023 spotlight status verified in the author-maintained arXiv record."
+      ],
+      "subcategory": "computation",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2023-05-17"
+    },
+    "P204": {
+      "arxiv_id": "2608.01175",
+      "arxiv_url": "https://arxiv.org/abs/2608.01175",
+      "pdf_url": "https://arxiv.org/pdf/2608.01175",
+      "arxiv_first_submitted": "2026-08-02",
+      "arxiv_last_updated": "2026-08-02",
+      "authors": [
+        "Giuseppe Pirrò"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2608.01175",
+        "https://doi.org/10.1007/978-3-032-09527-5_33",
+        "https://link.springer.com/chapter/10.1007/978-3-032-09527-5_33"
+      ],
+      "notes": [
+        "The arXiv related DOI ends in _3 and points to an unrelated chapter. Publisher-verified correct DOI ends in _33. Despite its 2026 arXiv ID, this is a 2025 conference paper and a backfill."
+      ],
+      "subcategory": "fusion",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2025-10-29"
+    },
+    "P205": {
+      "arxiv_id": "2310.13023",
+      "arxiv_url": "https://arxiv.org/abs/2310.13023",
+      "pdf_url": "https://arxiv.org/pdf/2310.13023",
+      "arxiv_first_submitted": "2023-10-19",
+      "arxiv_last_updated": "2024-05-07",
+      "authors": [
+        "Jiabin Tang",
+        "Yuhao Yang",
+        "Wei Wei",
+        "Lei Shi",
+        "Lixin Su",
+        "Suqi Cheng",
+        "Dawei Yin",
+        "Chao Huang"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2310.13023",
+        "https://doi.org/10.1145/3626772.3657775",
+        "https://api.crossref.org/works/10.1145/3626772.3657775"
+      ],
+      "notes": [],
+      "subcategory": "fusion",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2023-10-19"
+    },
+    "P206": {
+      "arxiv_id": "2402.08170",
+      "arxiv_url": "https://arxiv.org/abs/2402.08170",
+      "pdf_url": "https://arxiv.org/pdf/2402.08170",
+      "arxiv_first_submitted": "2024-02-13",
+      "arxiv_last_updated": "2024-04-11",
+      "authors": [
+        "Runjin Chen",
+        "Tong Zhao",
+        "Ajay Jaiswal",
+        "Neil Shah",
+        "Zhangyang Wang"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2402.08170",
+        "https://proceedings.mlr.press/v235/chen24bh.html"
+      ],
+      "notes": [],
+      "subcategory": "fusion",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2024-02-13"
+    },
+    "P207": {
+      "arxiv_id": "2305.19523",
+      "arxiv_url": "https://arxiv.org/abs/2305.19523",
+      "pdf_url": "https://arxiv.org/pdf/2305.19523",
+      "arxiv_first_submitted": "2023-05-31",
+      "arxiv_last_updated": "2024-03-07",
+      "authors": [
+        "Xiaoxin He",
+        "Xavier Bresson",
+        "Thomas Laurent",
+        "Adam Perold",
+        "Yann LeCun",
+        "Bryan Hooi"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2305.19523",
+        "https://openreview.net/forum?id=RXFVcynVe1"
+      ],
+      "notes": [],
+      "subcategory": "fusion",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2023-05-31"
+    },
+    "P208": {
+      "arxiv_id": "2610.37237",
+      "arxiv_url": "https://arxiv.org/abs/2610.37237",
+      "pdf_url": "https://arxiv.org/pdf/2610.37237",
+      "arxiv_first_submitted": "2026-10-27",
+      "arxiv_last_updated": "2026-10-27",
+      "authors": [
+        "Wadie El Amrani",
+        "Luis Galárraga"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2610.37237"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-10-27"
+    },
+    "P209": {
+      "arxiv_id": "2610.19549",
+      "arxiv_url": "https://arxiv.org/abs/2610.19549",
+      "pdf_url": "https://arxiv.org/pdf/2610.19549",
+      "arxiv_first_submitted": "2026-10-14",
+      "arxiv_last_updated": "2026-10-14",
+      "authors": [
+        "Yining Tang",
+        "Junyu Zhang",
+        "Haomiao Qiu",
+        "Yongchao Liu",
+        "Jiajun Zheng",
+        "Zhao Wang",
+        "Ziyue Qiao",
+        "Chao Wu"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2610.19549"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-10-14"
+    },
+    "P210": {
+      "arxiv_id": "2610.19386",
+      "arxiv_url": "https://arxiv.org/abs/2610.19386",
+      "pdf_url": "https://arxiv.org/pdf/2610.19386",
+      "arxiv_first_submitted": "2026-10-14",
+      "arxiv_last_updated": "2026-10-14",
+      "authors": [
+        "Guanhua Zhu",
+        "Hanwen Li",
+        "Zhi Wei",
+        "Mengnan Du",
+        "Chenxi Yuan"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2610.19386"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-10-14"
+    },
+    "P211": {
+      "arxiv_id": "2609.24346",
+      "arxiv_url": "https://arxiv.org/abs/2609.24346",
+      "pdf_url": "https://arxiv.org/pdf/2609.24346",
+      "arxiv_first_submitted": "2026-09-21",
+      "arxiv_last_updated": "2026-09-21",
+      "authors": [
+        "Senlei Zhang",
+        "Linhao Luo",
+        "Qian-Wen Zhang",
+        "Siyu An",
+        "Junnan Dong",
+        "Shuhao Zhang",
+        "Xing Sun"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2609.24346"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-09-21"
+    },
+    "P212": {
+      "arxiv_id": "2609.18099",
+      "arxiv_url": "https://arxiv.org/abs/2609.18099",
+      "pdf_url": "https://arxiv.org/pdf/2609.18099",
+      "arxiv_first_submitted": "2026-09-16",
+      "arxiv_last_updated": "2026-09-16",
+      "authors": [
+        "Yuzhong Zhang",
+        "Haoyang Ma",
+        "Chao Peng",
+        "Lionel Briand",
+        "Boxi Yu",
+        "Jialun Cao"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2609.18099"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-09-16"
+    },
+    "P213": {
+      "arxiv_id": "2404.16130",
+      "arxiv_url": "https://arxiv.org/abs/2404.16130",
+      "pdf_url": "https://arxiv.org/pdf/2404.16130",
+      "arxiv_first_submitted": "2024-04-24",
+      "arxiv_last_updated": "2025-02-19",
+      "authors": [
+        "Darren Edge",
+        "Ha Trinh",
+        "Newman Cheng",
+        "Joshua Bradley",
+        "Alex Chao",
+        "Apurva Mody",
+        "Steven Truitt",
+        "Dasha Metropolitansky",
+        "Robert Osazuwa Ness",
+        "Jonathan Larson"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2404.16130",
+        "https://www.microsoft.com/en-us/research/publication/from-local-to-global-a-graph-rag-approach-to-query-focused-summarization/",
+        "https://github.com/microsoft/graphrag"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2024-04-24"
+    },
+    "P214": {
+      "arxiv_id": "2410.05779",
+      "arxiv_url": "https://arxiv.org/abs/2410.05779",
+      "pdf_url": "https://arxiv.org/pdf/2410.05779",
+      "arxiv_first_submitted": "2024-10-08",
+      "arxiv_last_updated": "2025-04-28",
+      "authors": [
+        "Zirui Guo",
+        "Lianghao Xia",
+        "Yanhua Yu",
+        "Tu Ao",
+        "Chao Huang"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2410.05779",
+        "https://aclanthology.org/2025.findings-emnlp.568/"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2024-10-08"
+    },
+    "P215": {
+      "arxiv_id": "2405.14831",
+      "arxiv_url": "https://arxiv.org/abs/2405.14831",
+      "pdf_url": "https://arxiv.org/pdf/2405.14831",
+      "arxiv_first_submitted": "2024-05-23",
+      "arxiv_last_updated": "2025-01-14",
+      "authors": [
+        "Bernal Jiménez Gutiérrez",
+        "Yiheng Shu",
+        "Yu Gu",
+        "Michihiro Yasunaga",
+        "Yu Su"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2405.14831",
+        "https://arxiv.org/abs/2405.14831"
+      ],
+      "notes": [
+        "NeurIPS 2024 status verified in the author-maintained arXiv record."
+      ],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2024-05-23"
+    },
+    "P216": {
+      "arxiv_id": "2502.14802",
+      "arxiv_url": "https://arxiv.org/abs/2502.14802",
+      "pdf_url": "https://arxiv.org/pdf/2502.14802",
+      "arxiv_first_submitted": "2025-02-20",
+      "arxiv_last_updated": "2025-06-19",
+      "authors": [
+        "Bernal Jiménez Gutiérrez",
+        "Yiheng Shu",
+        "Weijian Qi",
+        "Sizhe Zhou",
+        "Yu Su"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2502.14802",
+        "https://proceedings.mlr.press/v267/gutierrez25a.html"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2025-02-20"
+    },
+    "P217": {
+      "arxiv_id": "2307.07697",
+      "arxiv_url": "https://arxiv.org/abs/2307.07697",
+      "pdf_url": "https://arxiv.org/pdf/2307.07697",
+      "arxiv_first_submitted": "2023-07-15",
+      "arxiv_last_updated": "2024-03-24",
+      "authors": [
+        "Jiashuo Sun",
+        "Chengjin Xu",
+        "Lumingyuan Tang",
+        "Saizhuo Wang",
+        "Chen Lin",
+        "Yeyun Gong",
+        "Lionel M. Ni",
+        "Heung-Yeung Shum",
+        "Jian Guo"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2307.07697",
+        "https://arxiv.org/abs/2307.07697"
+      ],
+      "notes": [
+        "Conference acceptance verified in the author-maintained arXiv record."
+      ],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2023-07-15"
+    },
+    "P218": {
+      "arxiv_id": "2405.20139",
+      "arxiv_url": "https://arxiv.org/abs/2405.20139",
+      "pdf_url": "https://arxiv.org/pdf/2405.20139",
+      "arxiv_first_submitted": "2024-05-30",
+      "arxiv_last_updated": "2024-05-30",
+      "authors": [
+        "Costas Mavromatis",
+        "George Karypis"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2405.20139",
+        "https://aclanthology.org/2025.findings-acl.856/"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2024-05-30"
+    },
+    "P219": {
+      "arxiv_id": "2310.01061",
+      "arxiv_url": "https://arxiv.org/abs/2310.01061",
+      "pdf_url": "https://arxiv.org/pdf/2310.01061",
+      "arxiv_first_submitted": "2023-10-02",
+      "arxiv_last_updated": "2024-02-24",
+      "authors": [
+        "Linhao Luo",
+        "Yuan-Fang Li",
+        "Gholamreza Haffari",
+        "Shirui Pan"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2310.01061",
+        "https://arxiv.org/abs/2310.01061"
+      ],
+      "notes": [
+        "Conference acceptance verified in the author-maintained arXiv record."
+      ],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2023-10-02"
+    },
+    "P220": {
+      "arxiv_id": "2402.07630",
+      "arxiv_url": "https://arxiv.org/abs/2402.07630",
+      "pdf_url": "https://arxiv.org/pdf/2402.07630",
+      "arxiv_first_submitted": "2024-02-12",
+      "arxiv_last_updated": "2024-05-27",
+      "authors": [
+        "Xiaoxin He",
+        "Yijun Tian",
+        "Yifei Sun",
+        "Nitesh V. Chawla",
+        "Thomas Laurent",
+        "Yann LeCun",
+        "Xavier Bresson",
+        "Bryan Hooi"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2402.07630",
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/efaf1c9726648c8ba363a5c927440529-Abstract-Conference.html"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2024-02-12"
+    },
+    "P221": {
+      "arxiv_id": "2308.09687",
+      "arxiv_url": "https://arxiv.org/abs/2308.09687",
+      "pdf_url": "https://arxiv.org/pdf/2308.09687",
+      "arxiv_first_submitted": "2023-08-18",
+      "arxiv_last_updated": "2024-02-06",
+      "authors": [
+        "Maciej Besta",
+        "Nils Blach",
+        "Ales Kubicek",
+        "Robert Gerstenberger",
+        "Michal Podstawski",
+        "Lukas Gianinazzi",
+        "Joanna Gajda",
+        "Tomasz Lehmann",
+        "Hubert Niewiadomski",
+        "Piotr Nyczyk",
+        "Torsten Hoefler"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2308.09687",
+        "https://doi.org/10.1609/aaai.v38i16.29720",
+        "https://api.crossref.org/works/10.1609/aaai.v38i16.29720"
+      ],
+      "notes": [],
+      "subcategory": "retrieval",
+      "change_type": "added",
+      "update_group": "backfill",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2023-08-18"
+    },
+    "P222": {
+      "arxiv_id": "2610.32696",
+      "arxiv_url": "https://arxiv.org/abs/2610.32696",
+      "pdf_url": "https://arxiv.org/pdf/2610.32696",
+      "arxiv_first_submitted": "2026-10-23",
+      "arxiv_last_updated": "2026-10-23",
+      "authors": [
+        "Soumav Biswas",
+        "Mia Naeini"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2610.32696"
+      ],
+      "notes": [],
+      "subcategory": "power_applications",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-10-23"
+    },
+    "P223": {
+      "arxiv_id": "2609.02011",
+      "arxiv_url": "https://arxiv.org/abs/2609.02011",
+      "pdf_url": "https://arxiv.org/pdf/2609.02011",
+      "arxiv_first_submitted": "2026-09-02",
+      "arxiv_last_updated": "2026-09-02",
+      "authors": [
+        "Jayakumar Manoharan",
+        "Yamini Sehgal"
+      ],
+      "verified_on": "2026-11-01",
+      "verification_sources": [
+        "https://arxiv.org/abs/2609.02011"
+      ],
+      "notes": [],
+      "subcategory": "power_applications",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "date_basis": "arXiv first submission",
+      "first_public_date": "2026-09-02"
+    },
+    "P224": {
+      "verified_on": "2026-11-01",
+      "subcategory": "power_applications",
+      "change_type": "added",
+      "update_group": "new_since_cutoff",
+      "first_public_date": "2026-08-21",
+      "date_basis": "conference start; IEEE Xplore added 2026-10-07",
+      "doi": "10.1109/PSGEC70194.2026.11719172",
+      "verification_sources": [
+        "https://doi.org/10.1109/PSGEC70194.2026.11719172",
+        "https://api.crossref.org/works/10.1109/PSGEC70194.2026.11719172",
+        "https://ieeexplore.ieee.org/document/11719172/"
+      ],
+      "notes": [
+        "Structured retrieval over power-system standards; a nearby method, not a graph numerical solver."
+      ],
+      "authors": [
+        "Wenhua Zhou",
+        "Haiwei Chen",
+        "Xin Lu",
+        "Song Lin",
+        "Yanwei Feng",
+        "Quanhong Cai"
+      ]
+    }
+  },
+  "related_versions": [
+    {
+      "ids": [
+        "P016",
+        "P029"
+      ],
+      "relationship": "published / earlier preprint; inherited records retained, not separate-study evidence"
+    }
+  ]
+}

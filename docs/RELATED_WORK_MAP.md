@@ -1,54 +1,56 @@
-# Related-Work Map for PhysChronoGrid
+# Related-Work Map for PhysChronoGrid — 2026-11-01
 
-Snapshot: 2026-07-19
+The interpretation below is a literature-based research guide, not evidence that any planned experiment has been completed. Results on different datasets and task definitions are not directly comparable.
 
-## 1. Closest work and the novelty boundary
+## 1. Closest work / 建议优先阅读
 
-| Prior-work cluster | Representative papers | What is already established | Remaining boundary for PhysChronoGrid |
+| Work | What it studies | Relevance and boundary |
+|---|---|---|
+| [LLMs and Agentic AI Systems for Smart Grids](https://arxiv.org/abs/2607.18147), 2026 | Solver-grounded agents for forecasting, EV charging, power flow and diagnosis; explicit verification | “LLM 调用工具 + 物理校验”已有直接先例。创新应落实到预警时间窗、事件归因、证据链和动作后约束检查。 |
+| [PowerAgentBench-SS](https://arxiv.org/abs/2606.18789), 2026 | Hidden physical evaluator, risk-sensitive metrics and evidence-backed reports; DC thermal contingency pilot | 借鉴 false-safe、证据支持与预算利用指标；其 DC 试验不等于 AC 配电恢复。 |
+| [RestoreBench](https://arxiv.org/abs/2609.00384), 2026 | Agents repair non-convergent power-flow cases | 潮流收敛修复和故障后供电恢复是不同任务。借鉴失败原因记录，不混用成功率。 |
+| [PowerBench](https://arxiv.org/abs/2609.34492), 2026 | Heterogeneous operational evidence retrieval and reasoning using synthetic data | 适合比较遥测、设备和文档的证据检索；不能描述为实网部署验证。 |
+| [CONDUCTOR](https://arxiv.org/abs/2606.24609), 2026 | Distribution digital twin with uncertainty-aware studies and calibrated refusal | 与不确定性、调度建议、工具证据和拒答存在直接重叠。 |
+| [Explainable Post-Disaster Grid Observability Recovery](https://arxiv.org/abs/2609.16774), 2026 | PMU restoration tools, traceable explanations and operator oversight | 人工监督与可追溯恢复解释已有先例；PMU 可观测性恢复不同于配电负荷恢复。 |
+| [Foundation Models Meet Power Grid Topology for Cascade Prediction](https://arxiv.org/abs/2610.32696), 2026 | Confidence-gated graph/LLM fusion for cascade-severity prediction and transfer | 是 Graph + LLM、拓扑泛化与风险预测的直接近邻；输电级联预测不等于配电故障定位或动作安全验证。 |
+| [Seed-Anchored Budget-Bounded Graph Rendering](https://arxiv.org/abs/2609.02011), 2026 | Budget-limited CIM/CGMES topology evidence for LLM QA | 可借鉴保留关键拓扑证据；属于电网问答/检索，不是潮流求解。 |
+| [PowerGraph-LLM](https://doi.org/10.1109/TPWRS.2025.3596774), TPWRS 2025 | Power-grid graph embedding and LLM optimization | 原 SafePowerGraph-LLM 的正式版；电网图嵌入 + LLM 概念本身不能再作为新颖性声明。 |
+| [STDeepSeek](https://doi.org/10.1109/TSG.2026.3725028), TSG 2026 | Graph-constrained spatiotemporal LLM adaptation for EV-station forecasting | 关注空间依赖、轻量适配与持续学习；预测精度、诊断与安全能力分别评估。 |
+
+## 2. Graph + LLM 技术路线
+
+| Route | Representative work | Useful for | Boundary |
 |---|---|---|---|
-| LLM + simulation tools | Jia et al., *Enhancing LLMs for Power System Simulations*; PowerChain; GridMind; X-GridAgent | LLM agents can call solvers, compose workflows, receive execution feedback, and expose natural-language interfaces | Do not claim that “LLM + multi-agent + solver” alone is novel. Focus on anticipatory multi-horizon risk evidence, cyber-physical diagnosis, report-level grounding, and a strict post-action AC-feasibility veto |
-| LLM + distribution operation | LLM4DistReconfig; ADN automated modeling; Grid-Agent; PowerCon | LLMs can generate reconfiguration/dispatch formulations or action sequences | Compare against deterministic optimization and fixed-action-space baselines; demonstrate that the report-and-verifier framework improves safety rather than merely task accuracy |
-| LLM + power forecasting | LFLLM; STELLM; BERT4ST; TimeGPT load forecasting; zero-shot load forecasting | Pre-trained language/time-series models can support load, wind, PV, and price prediction | The paper should not sell the forecaster alone as the main novelty; use a topology-aware multi-horizon predictor as the evidence generator inside the end-to-end framework |
-| Graph and physics-guided learning | Physics-guided GNN for OPF; topology-transferable GNN; STGNN wind forecasting; GNN-based FDIA localization | Grid topology and physical constraints improve generalization and plausibility | Use graph structure and one auditable physics gate consistently; avoid an untestable collection of many informal “physics rules” |
-| Cyber-physical diagnosis | FDIA detection/localization, incipient fault detection, graph fault diagnosis | Physical and cyber anomalies can be detected using temporal, graph, and residual features | Evaluate joint event attribution and report evidence under mixed physical/cyber scenarios, including abstention and human handoff |
-| Explainability and oversight | XAI for power systems; human-AI safety-critical infrastructure; customized large-model agents | Explanations and HITL are recognized requirements | Evaluate evidence correctness, unsafe recommendation rate, calibrated abstention, and whether natural-language claims trace to solver/forecast evidence |
+| LLM plans; graph tools execute | [GraphArena](https://arxiv.org/abs/2407.00379), [GABench](https://arxiv.org/abs/2608.01684), [graph-computation survey](https://arxiv.org/abs/2606.06865) | Connectivity, shortest paths, components, candidate screening and tool evaluation | 正确的自然语言不等于精确图算法结果或 AC 可行性。 |
+| GNN–LLM alignment/fusion | [GraphGPT](https://doi.org/10.1145/3626772.3657775), [LLaGA](https://proceedings.mlr.press/v235/chen24bh.html), [G-Retriever](https://arxiv.org/abs/2402.07630) | Topology representations and graph QA | 文本属性图上的效果不能自动外推到电气网络。 |
+| Knowledge graph / GraphRAG | [GraphRAG](https://arxiv.org/abs/2404.16130), [LightRAG](https://aclanthology.org/2025.findings-emnlp.568/), [GNN-RAG](https://aclanthology.org/2025.findings-acl.856/), [HippoRAG 2](https://proceedings.mlr.press/v267/gutierrez25a.html) | Rules, equipment documents and event histories | 文档语义关系不一定是电气连接，需标注来源和关系类型。 |
+| Provenance and robustness | [GraphRAGProv](https://arxiv.org/abs/2610.37237), [GraphRAG-LTM](https://arxiv.org/abs/2610.19549) | Trace claims to evidence; test retrieval/graph corruption | 来源可追踪不保证提取正确，也不保证动作物理安全。 |
+| Native electrical topology + LLM | [CIM/CGMES rendering](https://arxiv.org/abs/2609.02011), [cascade prediction](https://arxiv.org/abs/2610.32696), [PowerGraph-LLM](https://doi.org/10.1109/TPWRS.2025.3596774) | Bus/branch identity, electrical adjacency and risk context | 各论文研究任务不同，不应拼接为统一性能榜。 |
 
-## 2. Recommended Related Work structure
+A useful design hypothesis for PhysChronoGrid is to distinguish **electrical topology**, **document knowledge**, and **event/evidence relations**, with explicit mappings. Whether this improves traceability or performance must be tested; it is not an established result of this catalog.
 
-### 2.1 Data-driven multi-horizon forecasting in active distribution grids
+## 3. Suggested reading order / 阅读顺序
 
-Cover PatchTST/iTransformer/TimeMixer/TFT, then transition to power-specific STGNN and time-series foundation models. State that forecast accuracy alone does not answer how future violations should be diagnosed and communicated.
+1. Smart-grid agent tutorial → CONDUCTOR → PowerAgentBench-SS: establish what verified workflows already cover.
+2. Graph-computation survey → GraphArena → GABench: separate planning from exact execution.
+3. PowerGraph-LLM → STDeepSeek → cascade-prediction fusion: study electrical applications.
+4. CIM/CGMES rendering → G-Retriever → GNN-RAG: choose topology/evidence interfaces.
+5. GraphRAGProv → GraphRAG-LTM: study provenance and robustness.
+6. RestoreBench → PowerBench: refine failure accounting and evidence-retrieval metrics.
 
-### 2.2 Graph and physics-guided learning for grid state/risk inference
+## 4. Candidate experiments / 可考虑的对照
 
-Cover topology-aware GNNs, OPF surrogates, physics-guided voltage control, and graph-based FDIA detection. Explain that these methods usually output numerical states/actions rather than an auditable diagnostic report.
+- **Topology:** plain text/edge list, deterministic graph-tool outputs, learned graph embedding, and retrieved graph evidence. Hold the LLM and information/token budget fixed where possible.
+- **Retrieval:** no retrieval, vector RAG, knowledge-graph RAG, native topology-aware retrieval. Separate document-retrieval effects from electrical-topology effects.
+- **Agent architecture:** deterministic solver + template, single agent + tools, multi-agent + tools, full framework. Use the same action space and validation budget.
+- **Verification:** report source traceability, graph consistency, AC convergence, voltage/thermal constraints and served-load changes separately. Solver failure is not automatically an unsafe action or failed restoration.
+- **Generalization:** hold out topologies/event families; distinguish zero-shot and calibrated transfer. Keep final-test data outside development.
+- **Failure behavior:** unsupported claims, wrong evidence, invalid arguments, false-safe decisions, abstention/escalation, latency and tool/token cost.
 
-### 2.3 LLM and agentic AI for power-system analysis and operation
+Select experiments according to the final research question and available data; this is not a requirement to implement every cataloged method.
 
-Start with `Large Foundation Models for Power Systems` and the TSG security perspective, then cover Jia et al., RePower, PowerChain, GridMind, Grid-Agent, X-GridAgent, LLM4DistReconfig, and ADN-dispatch agents. Separate peer-reviewed Transactions papers from preprints.
+## 5. Novelty boundary
 
-### 2.4 Trustworthy decision support and human oversight
+Avoid “the first LLM agent for power systems,” “the first graph + LLM power model,” or “the first solver-verified agent.” Contributions must specify the task, horizon, event model, evidence interface, post-action physical checks and evaluation protocol, then show gains over relevant baselines.
 
-Cover physical/tool verification, XAI, human supervision, structured outputs, and abstention. End with the gap: few works jointly evaluate proactive multi-horizon anticipation, evidence-grounded cyber-physical diagnosis, structured report quality, post-action AC feasibility, and human escalation.
-
-## 3. Baseline implications
-
-The literature implies that the paper needs four baseline families:
-
-1. **Prediction baselines:** persistence, LSTM/TCN, PatchTST, iTransformer, STGCN/Graph WaveNet, and the proposed topology-aware model.
-2. **Decision/report baselines:** deterministic rules or AC-OPF + template report; LLM-only; single-agent + tools; multi-agent without verifier; full framework.
-3. **LLM sensitivity:** one frozen local open model as the main setting, smaller/larger open models for scaling, and one version-locked closed API model on a fixed subset.
-4. **Safety baselines:** no physics gate, pre-action rule check only, post-action AC power-flow verifier, and human-review triggering.
-
-## 4. Reviewer-facing claims to avoid
-
-- “The first multi-agent framework for power systems.” Existing work invalidates this claim.
-- “The first use of LLMs for power dispatch/forecasting/fault diagnosis.” Each area already has prior work.
-- “Physics-informed” when the only mechanism is a prompt containing physical terms.
-- Treating arXiv papers as peer-reviewed Transactions papers.
-- Comparing only different LLM brands without a deterministic optimization/rule baseline.
-- Reporting only BLEU/ROUGE or subjective report quality without physical feasibility and evidence correctness.
-
-## 5. Defensible contribution statement
-
-> A simulation-grounded, proactive decision-support framework for active distribution grids that links topology-aware multi-horizon risk forecasting to cyber-physical evidence synthesis, structured LLM reporting, a post-action AC power-flow veto, and uncertainty-triggered human handoff; evaluated end to end against deterministic, single-agent, multi-agent, and no-verifier baselines.
+The July 2026 map's broad gap statement is not retained as an established fact. New agent, graph-fusion and verification papers narrow that boundary. Assessing the final combination's novelty requires comparing full methods and experiments, not only titles and abstracts.
